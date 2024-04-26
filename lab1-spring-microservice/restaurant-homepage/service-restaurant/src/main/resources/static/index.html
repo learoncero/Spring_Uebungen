@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>New Order</title>
+    </head>
+    <body>
+        <h1>Place a new order</h1>
+        <form id="form">
+            <label>
+                User ID:
+                <input id="userID" type="text" required name="userID" style="margin-bottom: 1rem">
+            </label>
+            <br>
+            <label>
+                Order:
+                <input type="text" required name="orderText">
+            </label>
+            <br><br>
+            <button id="placeOrderButton" type="submit">Place order</button>
+        </form>
+        <br>
+        <h2>Orders</h2>
+        <ul id="orders"></ul>
+        <script src="index.js"></script>
+    </body>
+</html>

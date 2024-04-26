@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab3-websocket" />
+        <module name="spring-petclinic-config-server" />
+        <module name="eureka-client" />
+        <module name="spring-petclinic-discovery-server" />
+        <module name="spring-petclinic-customers-service" />
+        <module name="spring-petclinic-vets-service" />
+        <module name="lab3-websocket-message" />
+        <module name="spring-petclinic-visits-service" />
+        <module name="lab4-rabbitmq" />
+        <module name="eureka-server" />
+        <module name="spring-petclinic-api-gateway" />
+        <module name="spring-petclinic-admin-server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="lab3-websocket" options="-parameters" />
+      <module name="lab3-websocket-message" options="-parameters" />
+      <module name="lab4-rabbitmq" options="-parameters" />
+      <module name="spring-petclinic-admin-server" options="-parameters" />
+      <module name="spring-petclinic-api-gateway" options="-parameters" />
+      <module name="spring-petclinic-config-server" options="-parameters" />
+      <module name="spring-petclinic-customers-service" options="-parameters" />
+      <module name="spring-petclinic-discovery-server" options="-parameters" />
+      <module name="spring-petclinic-vets-service" options="-parameters" />
+      <module name="spring-petclinic-visits-service" options="-parameters" />
+    </option>
+  </component>
+</project>

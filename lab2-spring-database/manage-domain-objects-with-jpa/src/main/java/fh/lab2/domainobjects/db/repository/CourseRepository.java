@@ -1,0 +1,9 @@
+package fh.lab2.domainobjects.db.repository;
+
+import fh.lab2.domainobjects.db.model.Course;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CourseRepository extends CrudRepository<Course, Long> {
+}

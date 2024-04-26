@@ -1,0 +1,9 @@
+2024-03-08 12:08:03.133 [ INFO] [           main] l.l.CourseTrackerApplication             : Starting CourseTrackerApplication using Java 21.0.2 with PID 16856 (D:\Lea_Roncero\Code\SpringBoot_Uebungen\lab1-service-app2\spring-boot-logging-with-log4j\target\classes started by learo in D:\Lea_Roncero\Code\SpringBoot_Uebungen\lab1-service-app2)
+2024-03-08 12:08:03.176 [ INFO] [           main] l.l.CourseTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2024-03-08 12:08:05.487 [ INFO] [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-08 12:08:05.496 [ INFO] [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-03-08 12:08:05.498 [ INFO] [           main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-03-08 12:08:05.718 [ INFO] [           main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-03-08 12:08:06.549 [ INFO] [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2024-03-08 12:08:06.639 [ INFO] [           main] l.l.CourseTrackerApplication             : Started CourseTrackerApplication in 4.341 seconds (process running for 7.453)
+2024-03-08 12:08:06.648 [ INFO] [           main] l.l.CourseTrackerApplication             : CourseTrackerApplication started successfully with Log4j2 configuration
